@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
     zeroes(K,m.getSize(NODES));
     zeroes(b,m.getSize(NODES));
     ensamblaje(m,localKs,localbs,K,b);
-
+    //cout << "aiuda";
     applyNeumann(m,b);
 
     applyDirichlet(m,K,b);
